@@ -1,0 +1,86 @@
+/* Nexxus Drako Multimedia — component styles. All values come from tokens.css. */
+.nd-icon { flex: none; display: block; }
+
+/* Button */
+.nd-btn { display: inline-flex; align-items: center; gap: var(--space-2); font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 10px var(--space-4); border: 2px solid transparent; border-radius: var(--radius-md); background: none; cursor: pointer; }
+.nd-btn-sm { font-size: 12px; line-height: 16px; padding: 6px 12px; }
+.nd-btn-primary { background: var(--gold); color: var(--on-gold); border-color: var(--accent); }
+.nd-btn-secondary { color: var(--accent); border-color: var(--accent); }
+.nd-btn-ghost { color: var(--ink); }
+.nd-btn-ghost:hover { text-decoration: underline; text-underline-offset: 4px; }
+.nd-btn-primary:hover, .nd-btn-secondary:hover { filter: brightness(1.08); }
+.nd-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.nd-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* Tag */
+.nd-tag { display: inline-block; font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-muted); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 2px var(--space-2); }
+
+/* StatusBadge */
+.nd-status { display: inline-flex; align-items: center; gap: var(--space-1); font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; border: 1px solid currentColor; border-radius: var(--radius-sm); padding: 2px var(--space-2); }
+.nd-status .nd-icon { width: 14px; height: 14px; }
+.nd-status-success { color: var(--success); }
+.nd-status-warning { color: var(--warning); }
+.nd-status-danger { color: var(--danger); }
+
+/* LiveBadge */
+.nd-live { display: inline-flex; align-items: center; gap: var(--space-2); font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; background: var(--maroon); color: var(--gold); border-radius: var(--radius-sm); padding: 4px var(--space-2); }
+.nd-live-dot { width: 8px; height: 8px; border-radius: var(--radius-full); background: var(--gold); }
+
+/* Alert */
+.nd-alert { display: grid; grid-template-columns: auto 1fr; gap: var(--space-2); align-items: start; padding: var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); font-family: var(--font-sans); }
+.nd-alert-icon { padding-top: 2px; }
+.nd-alert-success { border-color: var(--success); } .nd-alert-success .nd-alert-icon { color: var(--success); }
+.nd-alert-warning { border-color: var(--warning); } .nd-alert-warning .nd-alert-icon { color: var(--warning); }
+.nd-alert-danger { border-color: var(--danger); } .nd-alert-danger .nd-alert-icon { color: var(--danger); }
+.nd-alert-title { margin: 0; font-size: 16px; line-height: 24px; font-weight: 600; color: var(--ink); }
+.nd-alert-body { font-size: 14px; line-height: 20px; color: var(--ink-muted); }
+.nd-alert-body p { margin: 0; }
+
+/* Avatar */
+.nd-avatar { display: block; border-radius: var(--radius-full); object-fit: cover; }
+
+/* SectionHeading */
+.nd-section { display: grid; gap: var(--space-1); }
+.nd-eyebrow { margin: 0; font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-muted); }
+.nd-section-title { margin: 0; font-family: var(--font-display); font-size: 24px; line-height: 30px; font-weight: 400; letter-spacing: 0.03em; text-transform: uppercase; color: var(--accent); }
+
+/* ProjectCard */
+.nd-card { display: flex; flex-direction: column; max-width: 320px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; font-family: var(--font-sans); }
+.nd-card-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--maroon); }
+.nd-card-body { display: grid; gap: var(--space-2); justify-items: start; padding: var(--space-4); }
+.nd-card-title { margin: 0; font-family: var(--font-display); font-size: 24px; line-height: 30px; font-weight: 400; letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink); }
+.nd-card-desc { margin: 0; font-size: 14px; line-height: 20px; color: var(--ink-muted); }
+.nd-card-link { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); text-decoration: none; }
+.nd-card-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.nd-card-link:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: var(--radius-sm); }
+
+/* TwitchPanel — 320px, Twitch's panel width */
+.nd-panel { width: 320px; box-sizing: border-box; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--line); font-family: var(--font-sans); background: var(--surface); }
+.nd-panel-head { background: var(--surface-brand); padding: var(--space-4); }
+.nd-panel-title { margin: 0; font-family: var(--font-display); font-size: 24px; line-height: 30px; font-weight: 400; letter-spacing: 0.03em; text-transform: uppercase; color: var(--on-brand); }
+.nd-panel-body { padding: var(--space-4); font-size: 14px; line-height: 20px; color: var(--ink); }
+.nd-panel-body p { margin: 0 0 var(--space-2); } .nd-panel-body p:last-child { margin-bottom: 0; }
+.nd-panel-body a { color: var(--accent); }
+
+/* LowerThird — stream overlay, theme-independent (maroon + gold only) */
+.nd-lower { display: inline-flex; align-items: center; gap: var(--space-4); }
+.nd-lower-avatar { width: 96px; height: 96px; border-radius: var(--radius-full); display: block; }
+.nd-lower-text { display: grid; justify-items: start; }
+.nd-lower-name { background: var(--maroon); color: var(--gold); font-family: var(--font-display); font-size: 40px; line-height: 44px; letter-spacing: 0.02em; text-transform: uppercase; padding: var(--space-2) var(--space-4); border-radius: var(--radius-sm) var(--radius-sm) 0 0; }
+.nd-lower-sub { background: var(--gold); color: var(--maroon); font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: var(--space-1) var(--space-4); border-radius: 0 0 var(--radius-sm) var(--radius-sm); }
+
+/* StreamScreen — full 1920×1080 frame for OBS; theme-independent */
+.nd-screen { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: var(--maroon); font-family: var(--font-sans); }
+.nd-screen-rings { position: absolute; right: 0; top: 0; }
+.nd-screen-rings circle { fill: none; stroke: var(--gold); stroke-width: 40px; }
+.nd-screen-main { position: absolute; left: 160px; top: 0; bottom: 0; display: flex; align-items: center; gap: 80px; width: 1120px; }
+.nd-screen-avatar { width: 360px; height: 360px; border-radius: var(--radius-full); flex: none; }
+.nd-screen-title { font-family: var(--font-display); font-size: 104px; line-height: 0.95; letter-spacing: 0.02em; text-transform: uppercase; color: var(--gold); }
+.nd-screen-sub { margin-top: 40px; font-size: 40px; line-height: 52px; color: #ffffff; }
+.nd-screen-detail { margin-top: 24px; font-size: 32px; line-height: 40px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold); }
+
+/* StreamAlert — follow / sub / raid / tip pop-up; theme-independent */
+.nd-salert { display: inline-grid; justify-items: center; min-width: 360px; font-family: var(--font-sans); text-align: center; }
+.nd-salert-label { display: inline-flex; align-items: center; gap: var(--space-2); background: var(--maroon); color: var(--gold); font-size: 14px; line-height: 20px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: var(--space-2) var(--space-4); border-radius: var(--radius-md) var(--radius-md) 0 0; }
+.nd-salert-name { align-self: stretch; background: var(--gold); color: var(--maroon); font-family: var(--font-display); font-size: 40px; line-height: 44px; letter-spacing: 0.02em; text-transform: uppercase; padding: var(--space-4) var(--space-6); border-radius: var(--radius-md); }
+.nd-salert-msg { margin-top: var(--space-2); background: var(--maroon); color: #ffffff; font-size: 16px; line-height: 24px; padding: var(--space-2) var(--space-4); border-radius: var(--radius-sm); max-width: 480px; }

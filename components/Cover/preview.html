@@ -1,0 +1,48 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: var(--surface); }
+  .cover { position: relative; width: 960px; height: 288px; overflow: hidden; background: var(--surface); }
+  svg { position: absolute; left: 0; top: 0; display: block; }
+  .maroon { fill: var(--maroon); }
+  .gold { fill: var(--gold); }
+  .ink { fill: var(--ink); }
+  .ring-gold { fill: none; stroke: var(--gold); stroke-width: var(--space-4); }
+  .ring-maroon { fill: none; stroke: var(--maroon); stroke-width: var(--space-4); }
+  .tile { rx: var(--radius-md); }
+  .text { position: absolute; left: 48px; top: 140px; max-width: 864px; }
+  .name { font-family: var(--font-display); font-size: 56px; line-height: 0.95; letter-spacing: 0.02em; color: var(--accent); margin: 0; white-space: nowrap; }
+  .tag { font-family: var(--font-sans); font-size: 14px; line-height: 20px; color: var(--ink-muted); margin: 16px 0 0; }
+</style>
+</head>
+<body>
+<div class="cover">
+  <!--
+    blocks: maroon slab 560×112, gold 240×112, ink 160×112 (heights = space-10 ×2.8; corners radius-md on the free ends)
+    arrangement: top-band skeleton — the name is too wide for a 440px zone, and the logos compose in horizontal bands
+    pattern: rings (literal motif) — the avatar ring, gold on maroon, is the one shape the brand is known by; r=40, stroke space-4, pitch 104
+    scales: space-4 stroke, space-10 ring spacing basis, radius-md tile corners, radius-full rings
+  -->
+  <svg width="960" height="112" viewBox="0 0 960 112" aria-hidden="true">
+    <rect class="maroon" x="0" y="0" width="560" height="112"/>
+    <rect class="gold" x="560" y="0" width="240" height="112"/>
+    <rect class="ink" x="800" y="0" width="160" height="112"/>
+    <circle class="ring-gold" cx="88" cy="44" r="40"/>
+    <circle class="ring-gold" cx="192" cy="92" r="40"/>
+    <circle class="ring-gold" cx="296" cy="44" r="40"/>
+    <circle class="ring-gold" cx="400" cy="92" r="40"/>
+    <circle class="ring-gold" cx="504" cy="44" r="40"/>
+    <circle class="ring-maroon" cx="680" cy="56" r="40"/>
+  </svg>
+  <div class="text">
+    <p class="name">Nexxus Drako Multimedia</p>
+    <p class="tag">Music, novels, games and streams from a Brisbane cryptid.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,384 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Art": {
+      "files": {
+        "nexxus-mono-art.png": {
+          "blob": "d2b97da613e5de162a9f1cb1f4d962a8",
+          "name": "nexxus-mono-art.png",
+          "size": 48604,
+          "type": "image/png"
+        }
+      },
+      "name": "Art",
+      "order": [
+        "nexxus-mono-art.png"
+      ],
+      "tile": "m"
+    },
+    "Avatar": {
+      "files": {
+        "avatar-ring-on-maroon.png": {
+          "blob": "5ba561d1f7ff91d61fed111a35f436c9",
+          "name": "avatar-ring-on-maroon.png",
+          "size": 1092174,
+          "type": "image/png"
+        },
+        "avatar-ring.png": {
+          "blob": "89edbae9ac43e681fcda5be155d2837d",
+          "name": "avatar-ring.png",
+          "size": 1261825,
+          "type": "image/png"
+        }
+      },
+      "name": "Avatar",
+      "order": [
+        "avatar-ring.png",
+        "avatar-ring-on-maroon.png"
+      ],
+      "tile": "m"
+    },
+    "Banners": {
+      "files": {
+        "banner-16x9-maroon.png": {
+          "blob": "b3ed2dd7e83a29abdd3969a3866c2890",
+          "name": "banner-16x9-maroon.png",
+          "size": 706990,
+          "type": "image/png"
+        },
+        "banner-3x1-maroon.png": {
+          "blob": "c869fe518c096a4a1437c577874a3a4b",
+          "name": "banner-3x1-maroon.png",
+          "size": 732833,
+          "type": "image/png"
+        }
+      },
+      "name": "Banners",
+      "order": [
+        "banner-3x1-maroon.png",
+        "banner-16x9-maroon.png"
+      ],
+      "tile": "l"
+    },
+    "Logos": {
+      "files": {
+        "ndg-horizontal-gold.png": {
+          "blob": "1d92712fb84c105a3bfbe073904c0d4d",
+          "name": "ndg-horizontal-gold.png",
+          "size": 1299806,
+          "type": "image/png"
+        },
+        "ndg-horizontal-maroon.png": {
+          "blob": "ff511cb3ec4fde5539fb8c1cb028780b",
+          "name": "ndg-horizontal-maroon.png",
+          "size": 1300925,
+          "type": "image/png"
+        },
+        "ndm-horizontal-gold.png": {
+          "blob": "bd8746eb2d31a640cc1874d2084930ed",
+          "name": "ndm-horizontal-gold.png",
+          "size": 1301154,
+          "type": "image/png"
+        },
+        "ndm-horizontal-maroon.png": {
+          "blob": "7c78a372a17bf382ff7a8527575c1816",
+          "name": "ndm-horizontal-maroon.png",
+          "size": 1302915,
+          "type": "image/png"
+        },
+        "ndm-stacked-gold-on-maroon.png": {
+          "blob": "b58f2e5283e81ca2bfc4ca53a64638d4",
+          "name": "ndm-stacked-gold-on-maroon.png",
+          "size": 523788,
+          "type": "image/png"
+        },
+        "ndm-stacked-maroon.png": {
+          "blob": "e49879f42f37509df1cf97aecb8034da",
+          "name": "ndm-stacked-maroon.png",
+          "size": 593747,
+          "type": "image/png"
+        },
+        "nexxus-drako-horizontal-gold.png": {
+          "blob": "5276026223a9e0323f879fa963830a7f",
+          "name": "nexxus-drako-horizontal-gold.png",
+          "size": 1284350,
+          "type": "image/png"
+        },
+        "nexxus-drako-horizontal-maroon.png": {
+          "blob": "9bc77e56856d28b0f8560117e0b2535d",
+          "name": "nexxus-drako-horizontal-maroon.png",
+          "size": 1285372,
+          "type": "image/png"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "ndm-horizontal-maroon.png",
+        "ndm-horizontal-gold.png",
+        "ndm-stacked-maroon.png",
+        "ndm-stacked-gold-on-maroon.png",
+        "ndg-horizontal-maroon.png",
+        "ndg-horizontal-gold.png",
+        "nexxus-drako-horizontal-maroon.png",
+        "nexxus-drako-horizontal-gold.png"
+      ],
+      "tile": "l"
+    },
+    "Icons": {
+      "name": "Icons",
+      "tile": "xs",
+      "order": [
+        "play.svg",
+        "music.svg",
+        "book.svg",
+        "gamepad.svg",
+        "steering-wheel.svg",
+        "flag.svg",
+        "mic.svg",
+        "radio.svg",
+        "pen.svg",
+        "code.svg",
+        "calendar.svg",
+        "clock.svg",
+        "users.svg",
+        "heart.svg",
+        "star.svg",
+        "link.svg",
+        "external.svg",
+        "mail.svg",
+        "download.svg",
+        "search.svg",
+        "menu.svg",
+        "close.svg",
+        "arrow-right.svg",
+        "check.svg",
+        "info.svg",
+        "warning.svg",
+        "error.svg"
+      ],
+      "files": {
+        "play.svg": {
+          "name": "play.svg",
+          "blob": "dd07bf453157d39804ec513de65d05a7",
+          "size": 208,
+          "type": "image/svg+xml"
+        },
+        "music.svg": {
+          "name": "music.svg",
+          "blob": "3d5595d58bed041bfd3a411798f4e9a9",
+          "size": 303,
+          "type": "image/svg+xml"
+        },
+        "book.svg": {
+          "name": "book.svg",
+          "blob": "607ce221be58fa6ab454d6fafb6c594d",
+          "size": 301,
+          "type": "image/svg+xml"
+        },
+        "gamepad.svg": {
+          "name": "gamepad.svg",
+          "blob": "0fba9d900ec9a5b55d019ea00cd6aea9",
+          "size": 375,
+          "type": "image/svg+xml"
+        },
+        "steering-wheel.svg": {
+          "name": "steering-wheel.svg",
+          "blob": "b43b8d97ecc8778d358b5e06aeca18e7",
+          "size": 313,
+          "type": "image/svg+xml"
+        },
+        "flag.svg": {
+          "name": "flag.svg",
+          "blob": "b0226727a7652b2a64432e49c31eb503",
+          "size": 236,
+          "type": "image/svg+xml"
+        },
+        "mic.svg": {
+          "name": "mic.svg",
+          "blob": "3127015642fe9ca6a2e201dc44d031b0",
+          "size": 305,
+          "type": "image/svg+xml"
+        },
+        "radio.svg": {
+          "name": "radio.svg",
+          "blob": "8bdb81a0f28c3e0bc95b00338b17032a",
+          "size": 389,
+          "type": "image/svg+xml"
+        },
+        "pen.svg": {
+          "name": "pen.svg",
+          "blob": "6855a8d38b1e0cff07e1fa7e5f3b0597",
+          "size": 241,
+          "type": "image/svg+xml"
+        },
+        "code.svg": {
+          "name": "code.svg",
+          "blob": "e882b056d6e7874551e110319c2d0a10",
+          "size": 233,
+          "type": "image/svg+xml"
+        },
+        "calendar.svg": {
+          "name": "calendar.svg",
+          "blob": "f509fd442a67a0b07ff703ae2d492267",
+          "size": 253,
+          "type": "image/svg+xml"
+        },
+        "clock.svg": {
+          "name": "clock.svg",
+          "blob": "8ab034890f5129034500336a68e89eb0",
+          "size": 254,
+          "type": "image/svg+xml"
+        },
+        "users.svg": {
+          "name": "users.svg",
+          "blob": "265650f5585d0e26ea48171415debb66",
+          "size": 328,
+          "type": "image/svg+xml"
+        },
+        "heart.svg": {
+          "name": "heart.svg",
+          "blob": "30805e573435e60a4233501423e5adee",
+          "size": 258,
+          "type": "image/svg+xml"
+        },
+        "star.svg": {
+          "name": "star.svg",
+          "blob": "3aef61aecba4812e36473ebddccf247a",
+          "size": 265,
+          "type": "image/svg+xml"
+        },
+        "link.svg": {
+          "name": "link.svg",
+          "blob": "b7bcd223814ced38b6c91c56d465fe66",
+          "size": 311,
+          "type": "image/svg+xml"
+        },
+        "external.svg": {
+          "name": "external.svg",
+          "blob": "c88ae7af15fcfdc01e8d58df1c2fc37f",
+          "size": 252,
+          "type": "image/svg+xml"
+        },
+        "mail.svg": {
+          "name": "mail.svg",
+          "blob": "5d70bec299776951da45aefcb2d7790c",
+          "size": 232,
+          "type": "image/svg+xml"
+        },
+        "download.svg": {
+          "name": "download.svg",
+          "blob": "6e7361bbcc2d0fd5f20b58545a43e045",
+          "size": 248,
+          "type": "image/svg+xml"
+        },
+        "search.svg": {
+          "name": "search.svg",
+          "blob": "99d0e1a7dd3887aae192ce43024e7cf6",
+          "size": 254,
+          "type": "image/svg+xml"
+        },
+        "menu.svg": {
+          "name": "menu.svg",
+          "blob": "16d213e4b9c8f1f466a8b2546a1d0ebe",
+          "size": 218,
+          "type": "image/svg+xml"
+        },
+        "close.svg": {
+          "name": "close.svg",
+          "blob": "8f81adf6c656277465c4c8c3c748864f",
+          "size": 215,
+          "type": "image/svg+xml"
+        },
+        "arrow-right.svg": {
+          "name": "arrow-right.svg",
+          "blob": "109f8004935ae3dbd5b9b6174c90c180",
+          "size": 228,
+          "type": "image/svg+xml"
+        },
+        "check.svg": {
+          "name": "check.svg",
+          "blob": "bfe004546c494dbfd3a84af3d653ab4c",
+          "size": 209,
+          "type": "image/svg+xml"
+        },
+        "info.svg": {
+          "name": "info.svg",
+          "blob": "18408faa2223a537510194cac62aa54f",
+          "size": 274,
+          "type": "image/svg+xml"
+        },
+        "warning.svg": {
+          "name": "warning.svg",
+          "blob": "1deaaeb88974f2eed6f876a6b392a1a4",
+          "size": 253,
+          "type": "image/svg+xml"
+        },
+        "error.svg": {
+          "name": "error.svg",
+          "blob": "16623b4d30d8c310c1c078ef033f3122",
+          "size": 261,
+          "type": "image/svg+xml"
+        }
+      }
+    },
+    "Pattern": {
+      "name": "Pattern",
+      "tile": "l",
+      "order": [
+        "lowpoly-gold.svg",
+        "lowpoly-gold.jpg"
+      ],
+      "files": {
+        "lowpoly-gold.jpg": {
+          "name": "lowpoly-gold.jpg",
+          "blob": "5d875567400c45447842087e61fc04fa",
+          "size": 92414,
+          "type": "image/jpeg"
+        },
+        "lowpoly-gold.svg": {
+          "name": "lowpoly-gold.svg",
+          "blob": "1e636496ce71d4c8abc23c7ab1e1db32",
+          "size": 6035,
+          "type": "image/svg+xml"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-17T11:47:01Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [
+    "Logos",
+    "Icons",
+    "Avatar",
+    "Banners",
+    "Pattern",
+    "Art"
+  ],
+  "lastChange": {
+    "by": "Nexxus",
+    "at": "2026-10-17T14:01:07Z",
+    "via": "Cowork",
+    "note": "Added vector low-poly pattern (lowpoly-gold.svg) from NXDFractal.svg"
+  },
+  "layout": "files",
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18"
+    },
+    {
+      "name": "react-dom",
+      "version": "18"
+    }
+  ],
+  "namespace": "NexxusDrako",
+  "sections": {},
+  "title": "Nexxus Drako Multimedia"
+}
