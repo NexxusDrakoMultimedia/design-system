@@ -28,6 +28,7 @@ Nexxus Drako Multimedia is the creative umbrella of Pyra Drake (Nexxus Drako): m
 - Where HK Modular isn't licensed (web, code, other tools), use **Orbitron** from Google Fonts as the substitute; the `display` stack falls back to it automatically.
 - Set body text (`body`, `body-sm`, `label`) in **Exo 2** (Google Fonts, also in Canva). Load it alongside Orbitron: `https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&family=Orbitron:wght@400;700&display=swap`.
 - Display styles are uppercase with slight tracking; never set long passages in the display face.
+- Exception: nexxusdrako.au is built on VentraIP's VIPsites builder, which can't load Orbitron or Exo 2. There, set both headings and body text in **Play** (Google Fonts). Keep every other rule: headings in `accent`, uppercase where the display styles are, and the same colours and contrast. Use Play only where a platform blocks the brand fonts.
 
 ## Spacing, radii, layout
 
