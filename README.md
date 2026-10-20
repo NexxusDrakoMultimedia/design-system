@@ -10,6 +10,7 @@ Nexxus Drako Multimedia is the creative umbrella of Pyra Drake (Nexxus Drako): m
 - Nexxus is a dragon. Describe her as a "cryptid", never a "gremlin".
 - Use Australian English spelling (colour, organise).
 - Set display lines in uppercase; keep running text in sentence case. No emoji as decoration.
+- Every public-facing surface carries the Acknowledgement of Country (stolen Jagera and Turrbal land, sovereignty never ceded) and NDM's queer-by-design statement, with the Intersex-Inclusive Progress Pride flag as the only pride flag. The required wording and rules are in the Values and statements section.
 
 ## Colour
 
